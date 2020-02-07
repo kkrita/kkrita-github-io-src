@@ -2,7 +2,14 @@
     <h1>
         {{ name }}
     </h1>
-    <p>
-        {{ name.age }}
-    </p>
+    <h2>
+        {{ item.id }} - {{ item.title }}
+    </h2>
+    <ol>
+        <li *ngFor="let child of item.children">
+            <span *ngIf="child.parentId === item.id">
+                {{ child.title }}
+            </span>
+        </li>
+    </ol>
 </article>
