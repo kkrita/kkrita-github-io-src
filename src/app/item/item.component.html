@@ -7,7 +7,10 @@
     </h2>
     <ol>
         <li *ngFor="let child of item.children">
-            <span *ngIf="child.parentId === item.id">
+            <span *ngIf="child.parentId === item.id" class="child">
+                {{ child.title }}
+            </span>
+            <span *ngIf="child.parentId !== item.id" class="imposter">
                 {{ child.title }}
             </span>
         </li>

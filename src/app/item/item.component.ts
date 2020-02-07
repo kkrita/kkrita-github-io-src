@@ -33,6 +33,7 @@ export class ItemComponent implements OnInit {
     item.id = 1337;
     item.title = "Elite Space Cadets";
     item.children = this.getDummyChildren();
+    item.children.push(this.getImposterChild());
     return item;
   }
   getDummyChildren(): Array<Child> {
@@ -57,5 +58,12 @@ export class ItemComponent implements OnInit {
     childFive.parentId = 1337;
     childFive.title = "Child Five";
     return [childOne, childTwo, childThree, childFour, childFive];
+  }
+  getImposterChild(): Child {
+    const imposter: Child = new Child();
+    imposter.id = 42;
+    imposter.parentId = 1336;
+    imposter.title = "An imposter, not an elite child";
+    return imposter;
   }
 }
