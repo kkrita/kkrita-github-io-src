@@ -1,0 +1,17 @@
+Did Not Connect: Potential Security Issue
+
+Firefox detected a potential security threat and did not continue to forum.level1techs.com because this website requires a secure connection.
+
+What can you do about it?
+
+forum.level1techs.com has a security policy called HTTP Strict Transport Security (HSTS), which means that Firefox can only connect to it securely. You can’t add an exception to visit this site.
+
+The issue is most likely with the website, and there is nothing you can do to resolve it.
+
+If you are on a corporate network or using anti-virus software, you can reach out to the support teams for assistance. You can also notify the website’s administrator about the problem.
+
+Sorry. We just need to do one small thing to keep going.
+
+Firefox has just been updated in the background. Click Restart Firefox to complete the update.
+
+We will restore all your pages, windows and tabs afterwards, so you can be on your way quickly.
